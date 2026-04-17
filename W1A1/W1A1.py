@@ -13,7 +13,7 @@ summary = df.groupby("category")[["sales_sum", "sales_mean", "sales_count"]].sum
 print("\nAggregated Summary:")
 print(summary.to_string(index=False))
  
-# identify the story
+# anlayze
 best = df.loc[df["sales_sum"].idxmax(), "category"]
 print("\nInsight: Category " + best + " has the highest total sales.")
  
