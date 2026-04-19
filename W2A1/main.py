@@ -1,20 +1,19 @@
 import pandas as pd
 import os
 
-# Load all CSV files in the same folder
+# Load and merge all 12 CSV files into one
 csv_files = [f for f in os.listdir(".") if f.startswith("PRSA_Data") and f.endswith(".csv")]
+data = pd.concat([pd.read_csv(f) for f in csv_files], ignore_index=True)
 
-for file in csv_files:
-    data = pd.read_csv(file)
+# Display first 5 rows
+print("--- First 5 Rows ---")
+print(data.head())
 
-    # Display first 5 rows per station
-    print(f"\n--- {file} ---")
-    print(data.head())
+# Show column names and data types
+print("\n--- Column Names and Data Types ---")
+print(data.dtypes)
 
-    # Show column names and data types
-    print(data.dtypes)
-
-    # Count total rows and columns
-    rows, columns = data.shape
-    print(f"Total Rows: {rows}")
-    print(f"Total Columns: {columns}")
+# Count total rows and columns
+rows, columns = data.shape
+print(f"\nTotal Rows: {rows}")
+print(f"Total Columns: {columns}")
