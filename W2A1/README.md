@@ -17,6 +17,7 @@ JPG file - just a photo, not needed.
 
 ## How to Run
 
+<<<<<<< HEAD
 1. Download and unzip the dataset.
 2. Put all 12 CSV files and main.py in one folder.
 3. Install libraries: pip install pandas matplotlib
@@ -45,3 +46,7 @@ Saves 3 charts as PNG files in the same folder.
 
 Task 6 - Correlation Analysis
 Shows which variable is most correlated with PM2.5. Also checks if temperature affects pollution levels.
+
+=======
+## Output
+The program merges all 12 files into one table around 420,768 rows. It will show the first 5 rows, column names and data types, and total rows and columns.
