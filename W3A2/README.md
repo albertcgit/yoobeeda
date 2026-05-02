@@ -5,7 +5,7 @@ pip install pandas matplotlib
 
 ## How to Run
 Place messy_dataset_Mukesh.csv in the same folder then run:
-python data_analysis.py
+python W3A2.py
 
 ## What the Script Does
 - Cleans the raw dataset and saves messy_dataset_Mukesh_cleaned.csv
