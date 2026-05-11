@@ -23,5 +23,7 @@ This chart show how sales change every month. Sales go down in **February** but 
 ### Visual 3 – Sales by Region (Donut Chart)
 This chart show the sales in each region. **West** region have the most sales at 32.1%, follow by **South** at 30.74%, **North** at 17.76%, and **East** at 19.4%.
 
-### Visual 4 – Most Sold Item (Bar Chart)
+### Visual 4 – Sales by Product Name (Bar Chart)
 This chart show which product have the most quantity sold. **Phone** and **Laptop** are the top selling products. **Desk** have the lowest quantity sold.
+
+<img width="956" height="595" alt="image" src="https://github.com/user-attachments/assets/5a5e8e53-89e5-40d1-8090-9033fddec19c" />
