@@ -27,11 +27,9 @@
 
 <img width="943" height="582" alt="Screenshot 2026-05-17 122147" src="https://github.com/user-attachments/assets/553e4d20-c9c2-48f1-aded-2709dd9bd962" />
 
-
 2) Scatter Chart
 
 <img width="1200" height="500" alt="scatter_plot" src="https://github.com/user-attachments/assets/53e06c3c-4806-4921-b486-b6f656d4c33a" />
-
 
 ##HOW TO RUN
 - Install: pip install pandas matplotlib scikit-learn
